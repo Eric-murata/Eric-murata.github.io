@@ -31,6 +31,3 @@ int rand(void);
 包含头文件#include<iomanip>
 之后输出cout<<fixed<<setprecision(n)<<变量/常量<<endl;就可以输出n位有效数字了. //这里fixed表示不经过科学计数法的输出
 */
-————————————————
-版权声明：本文为CSDN博主「策马奔腾向前冲」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/qq_40597059/article/details/104078481
