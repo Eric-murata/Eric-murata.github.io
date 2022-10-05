@@ -1,0 +1,37 @@
+/*1.开平方
+double sqrt(double x);
+2.求常数e的x次方
+double exp(double x);
+3.求x的y次方
+double pow(double x, double y);
+4.求对数ln(x)
+double log(double x);
+   求对数lg(x)
+double log10(double x);
+  其他用换底公式
+5.求x绝对值
+int abs(x);
+long int abs(long int x);
+double fabs(double x);
+6.三角函数
+   求正弦 
+double sin(double x);
+   求余弦
+double cos(double x);
+   求正切
+double tan(double x);
+   反正切
+double atan(double x);
+7.取整函数
+   向上取整
+double ceil(double x);
+   向下取整
+double floor(double x);
+8.产生随机数 0~32767
+int rand(void);
+9 包含头文件#include<iomanip>
+之后输出cout<<fixed<<setprecision(n)<<变量<<endl;就可以输出n位有效数字了. 
+*/
+————————————————
+版权声明：本文为CSDN博主「策马奔腾向前冲」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/qq_40597059/article/details/104078481
