@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+
+struct sz {
+	int len; int arr[10];//这里创建len为了记录我们成员的个数。 
+};
+int main()
+{	sz s1; 
+    for(int i=0;i<10;i++)
+    { s1.arr[i]=i+1;
+	}
+    //给数组赋值。我这里简单给1-10.
+    
+	s1.len=10;
+	//然后我们想去掉第5个数组成员，那么它的下表就是4
+	for(int i=4;i<9;i++) 
+	{
+		s1.arr[i]=s1.arr[i+1];
+	}
+	s1.len--;//从第四个开始，将后来的数据提前。然后将len减1.
+	cout<<"现在数组有："<<endl;
+	for(int i=0;i<s1.len;i++) 
+	{
+		cout<<s1.arr[i]<<"\t";
+	}
+	 
+    
+} 
